@@ -1,0 +1,10 @@
+[32mINFO    [0m my_log:BaseFuntest.py:134 加密的值为：appid=82e82b4703aaafff&data={"app_type":"0","appid":"82e82b4703aaafff"}&encrypt_type=PKCS7&funid=N03.00.05.11&sign_type=MD5&key=C9C9F54F74BD35DE5242885762E99E8B
+[32mINFO    [0m my_log:Access_token.py:18 签名是:0044225F6EEA08FE469ADF1E8B2D6C66
+[32mINFO    [0m my_log:Access_token.py:22 转换为json的数据{'funid': 'N03.00.05.11', 'data': {'app_type': '0', 'appid': '82e82b4703aaafff'}, 'appid': '82e82b4703aaafff', 'sign_type': 'MD5', 'encrypt_type': 'PKCS7', 'sign': '0044225F6EEA08FE469ADF1E8B2D6C66'}
+[32mINFO    [0m my_log:Access_token.py:26 data是：{"app_type":"0","appid":"82e82b4703aaafff"}
+[32mINFO    [0m my_log:Access_token.py:35 请求的参数是：{"funid": "N03.00.05.11", "encrypt_data": "udacTE352N5hOqGKEIo03EghHghApdQ3sctRJREhW7RO/CjdKL5x/rzZca/1Ojf5", "appid": "82e82b4703aaafff", "sign_type": "MD5", "encrypt_type": "PKCS7", "sign": "0044225F6EEA08FE469ADF1E8B2D6C66"}
+[32mINFO    [0m my_log:Access_token.py:37 正在请求地址https://open.ybj.fujian.gov.cn/api/gafe/rest
+[32mINFO    [0m my_log:test_hcj.py:108 返回的结果是:{'traceid': '', 'flag': '1', 'sign': '186A20EB51B13DFE4F64EC8475A49CAD', 'cause': '接口调用凭证获取成功', 'encrypt_data': 'H4uOScmL2uYPhq9Zrg/Vpa3/n7TvTyaGWkuPusQBsxviotpYAkJpNG+UzOfiQMu1G/SD9PcOD5d0dWuFVJT+iOI48rjW7S7V/ZOB9U5XpYTYGcLFVG7yHEWE5dLgbHRtEt3fDwq1NSZIxwWDfIzYrpjmaznTgwy0x5A3FahS6fY='}
+[32mINFO    [0m my_log:test_hcj.py:110 datas_encrypt是：H4uOScmL2uYPhq9Zrg/Vpa3/n7TvTyaGWkuPusQBsxviotpYAkJpNG+UzOfiQMu1G/SD9PcOD5d0dWuFVJT+iOI48rjW7S7V/ZOB9U5XpYTYGcLFVG7yHEWE5dLgbHRtEt3fDwq1NSZIxwWDfIzYrpjmaznTgwy0x5A3FahS6fY=
+[32mINFO    [0m my_log:test_hcj.py:118 access_token:7105032d85d3b449f4415dd1acb96a58
+[32mINFO    [0m my_log:test_hcj.py:148 提取接口返回数据:用例执行通过

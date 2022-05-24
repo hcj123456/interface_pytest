@@ -1,0 +1,22 @@
+[32mINFO    [0m my_log:BaseFuntest.py:134 加密的值为：access_token=6e554d5f948af649b1bc69469329bb28&appid=82e82b4703aaafff&data={"ybid":"3"}&encrypt_type=PKCS7&funid=N07.08.03.03&sign_type=MD5&key=C9C9F54F74BD35DE5242885762E99E8B
+[32mINFO    [0m my_log:Encryption_interface.py:15 签名是:3B5210296E577E82E8E9DCA9AA4492B8
+[32mINFO    [0m my_log:Encryption_interface.py:19 转换为json的数据{'funid': 'N07.08.03.03', 'data': {'ybid': '3'}, 'appid': '82e82b4703aaafff', 'access_token': '6e554d5f948af649b1bc69469329bb28', 'sign_type': 'MD5', 'encrypt_type': 'PKCS7', 'sign': '3B5210296E577E82E8E9DCA9AA4492B8'}
+[32mINFO    [0m my_log:Encryption_interface.py:23 data是：{"ybid":"3"}
+[32mINFO    [0m my_log:test_hcj.py:238 请求的参数是：{"funid": "N07.08.03.03", "encrypt_data": "TwsduPR1YRNu5NVYUuTYQw==", "appid": "82e82b4703aaafff", "access_token": "6e554d5f948af649b1bc69469329bb28", "sign_type": "MD5", "encrypt_type": "PKCS7", "sign": "3B5210296E577E82E8E9DCA9AA4492B8"}
+[32mINFO    [0m my_log:test_hcj.py:240 正在请求地址https://open.ybj.fujian.gov.cn/api/gafe/rest?zyregion=350600
+[32mINFO    [0m my_log:test_hcj.py:243 返回的结果是:{'traceid': '', 'flag': '40008', 'sign': 'ED0DAD3514E1ADAE04839908B6A1D4A6', 'cause': '您在当前地市【350600】未找到有效参保信息', 'encrypt_data': 'Oq5HOykJ+WeM+BUAllBraw=='}
+[32mINFO    [0m my_log:test_hcj.py:256 个人信息:用例执行未通过
+[32mINFO    [0m my_log:test_hcj.py:257 请求的地址：https://open.ybj.fujian.gov.cn/api/gafe/rest?zyregion=350600
+[32mINFO    [0m my_log:test_hcj.py:258 请求的参数是：{"funid": "N07.08.03.03", "encrypt_data": "TwsduPR1YRNu5NVYUuTYQw==", "appid": "82e82b4703aaafff", "access_token": "6e554d5f948af649b1bc69469329bb28", "sign_type": "MD5", "encrypt_type": "PKCS7", "sign": "3B5210296E577E82E8E9DCA9AA4492B8"}
+[32mINFO    [0m my_log:test_hcj.py:259 返回的结果是:{'traceid': '', 'flag': '40008', 'sign': 'ED0DAD3514E1ADAE04839908B6A1D4A6', 'cause': '您在当前地市【350600】未找到有效参保信息', 'encrypt_data': 'Oq5HOykJ+WeM+BUAllBraw=='}
+[31m[1mERROR   [0m my_log:test_hcj.py:260 实际结果与预期结果不符合
+assert '1' == '40008'
+  - 40008
+  + 1
+Traceback (most recent call last):
+  File "D:\interface2\test_case\test_hcj.py", line 250, in test_shengzhi_public
+    assert str(init2[5][1]) == res_code,"实际结果与预期结果不符合"
+AssertionError: 实际结果与预期结果不符合
+assert '1' == '40008'
+  - 40008
+  + 1
